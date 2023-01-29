@@ -34,6 +34,26 @@ function AccountPage() {
                 <button>Sign In</button>
               </div>
               </div>
+
+              <br></br>
+          <h2 className={classes.leftmargin2}>Pause Donations</h2>
+            <div className={classes.leftmargin2}>
+              <div>
+                <button>Sign In</button>
+                <label class="switch">
+                  <input type="checkbox"></input>
+                  <span class="slider round"></span>
+                </label>
+              </div>
+              </div>
+
+              <br></br>
+          <h2 className={classes.leftmargin2}>Download 1040 Document</h2>
+            <div className={classes.leftmargin2}>
+              <div>
+                <button>Sign In</button>
+              </div>
+              </div>
           
         </div>
 
