@@ -5,13 +5,13 @@
 }
 
 .partitions{
-    height: 100vh;
+    height: 150vh;
 }
 
 .partition_stats{
     vertical-align:top;
     display:inline-block;
-    background-color: #699f9684;
+    background-color: #00bcff;
     width: 65%;
     height: 100%;
     
@@ -19,7 +19,7 @@
 .partition_charities{
     vertical-align:top;
     display: inline-block;
-    background-color: #21383585;
+    background-color: #006f64;
     width: 35%;
     height: 100%
 
