@@ -58,8 +58,14 @@
     font-weight: bold;
   }
   
-  .inputbox {
+  .leftmargin1 {
     margin-left: 50px;
+  }
+  .leftmargin2 {
+    margin-left: 75px;
+  }
+  .leftmargin3 {
+    margin-left: 100px;
   }
 
  
