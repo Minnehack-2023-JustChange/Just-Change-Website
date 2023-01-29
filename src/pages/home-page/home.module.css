@@ -1,12 +1,15 @@
 .mission{
-    margin-bottom: 50px;
+    margin-top:100px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .partitions{
-    height: 1000px;
+    height: 100vh;
 }
 
 .partition_stats{
+    vertical-align:top;
     display:inline-block;
     background-color: #699f9684;
     width: 65%;
@@ -14,6 +17,7 @@
     
 }
 .partition_charities{
+    vertical-align:top;
     display: inline-block;
     background-color: #21383585;
     width: 35%;
