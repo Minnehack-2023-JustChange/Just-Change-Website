@@ -14,9 +14,9 @@ function MainNavigation() {
             </Link>
           </li>
           <li >
-            <Link to="/account"></Link>
+            <Link to="/account">
               <div className={classes.tabHeader}>Account</div>
-            
+              </Link>
           </li>
           {/* <li className={classes.title}>
             <Link className={classes.menus} to="/">
