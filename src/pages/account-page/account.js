@@ -4,11 +4,12 @@ import Button from "./Button";
 
 function AccountPage() {
     return (<div>
+      
       <h1 className={classes.leftmargin1}>Account</h1>
         <h2 className={classes.leftmargin2}>Choose how your change is divided between your chosen charities!</h2>
         
           <div className={classes.leftmargin2}>
-        
+            
             Charity 1 : <input type="number" id="Charity1" name="name" placeholder="0" min="0" max="100" required ></input> % <span></span>
             <p></p>
             Charity 2 : <input type="number" id="Charity2" name="name" placeholder="0" min="0" max="100" required ></input> % <span></span>
@@ -28,37 +29,15 @@ function AccountPage() {
 
           </div>
           <br></br>
-          <h2 className={classes.leftmargin2}>Sign in to Plaid</h2>
-            <div className={classes.leftmargin2}>
-              <div>
-                <button>Sign In</button>
-              </div>
-              </div>
-
-              <br></br>
-          <h2 className={classes.leftmargin2}>Pause Donations</h2>
-            <div className={classes.leftmargin2}>
-              <div>
-                <button>Sign In</button>
-                <label class="switch">
+          <h2 className={classes.leftmargin2}>Integrate with Plaid <button style ={{marginLeft:12}}>Sign In</button></h2>
+          <br></br>
+          <h2 className={classes.leftmargin2}>Donations Active <label class="switch" style ={{marginLeft:12}}>
                   <input type="checkbox"></input>
-                  <span class="slider round"></span>
-                </label>
-              </div>
-              </div>
-
-              <br></br>
-          <h2 className={classes.leftmargin2}>Download 1040 Document</h2>
-            <div className={classes.leftmargin2}>
-              <div>
-                <button>Sign In</button>
-              </div>
-              </div>
+                </label></h2>
+          <br></br>
+          <h2 className={classes.leftmargin2}>Download 1040 Document <button style ={{marginLeft:12}}>Download</button></h2>
           
         </div>
-
-        
-
 
         
     );
