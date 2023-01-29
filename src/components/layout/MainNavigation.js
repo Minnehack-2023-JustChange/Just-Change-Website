@@ -5,7 +5,7 @@ import classes from "./MainNavigation.module.css";
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Just Change</div>
+      <img src="JustChange_logo.png" alt="" height="70px"/>
       <nav>
         <ul>
           <li >
